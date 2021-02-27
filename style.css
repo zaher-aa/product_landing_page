@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.page {
+  height: 100vh;
+  width: 80vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+/* navigation bar */
+
+nav {
+  background-color: #363636;
+  display: flex;
+  justify-content: center;
+  height: 6.7%;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  text-decoration: none;
+  color: rgb(255 255 255 / 80%);
+  padding: 10px;
+}
+
+.nav-link:hover {
+  background-color: rgb(255 255 255 / 10%);
+}
+
+/* main area */
+
+main {
+  padding: 10px;
+  background-color: #ebeae6;
+  height: 75%;
+}
+
+main h2 {
+  text-align: center;
+  padding: 15px;
+  word-spacing: 8px;
+}
+
+main section {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.img-container {
+  border: 1px solid black;
+  width: 240px;
+  height: 360px;
+  background: url("imgs/js.jpg");
+  background-size: cover;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.right-area {
+  width: 400px;
+  text-align: center;
+  line-height: 4;
+  margin: 40px 0 0 -40px;
+}
+
+.desc-span {
+  display: block;
+}
+
+.main-btn {
+  background-color: #f88e38;
+  color: white;
+  padding: 10px 35px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+footer {
+  height: 18.3%;
+  background-color: #011826;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  text-align: center;
+  color: rgb(255 255 255 / 80%);
+  padding-top: 30px;
+}
+
+.footer-btn {
+  width: 400px;
+  margin-top: 10px;
+  padding: 10px 55px;
+  background-color: #f88e38;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+button {
+  cursor: pointer;
+}
