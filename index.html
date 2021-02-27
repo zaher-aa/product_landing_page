@@ -6,14 +6,37 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap"
       rel="stylesheet"
     />
-    <title>Document</title>
+    <title>My Website</title>
   </head>
   <body>
-    <div class="page">
-      <nav>
+    <section class="home-page">
+      <header>
+        <a
+          href="https://www.youtube.com/channel/UCGbSOqUEecTd78gqM0gSG9w"
+          target="_blank"
+          ><div class="logo"></div
+        ></a>
+        <ul class="nav-links">
+          <li><a id="active" href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">SERVICES</a></li>
+          <li><a href="#js">JavaScript</a></li>
+          <li><a href="#login">LOG IN</a></li>
+        </ul>
+      </header>
+      <main class="home-page-main">
+        <h1>Hello, I am Avic Ndugu</h1>
+        <p>
+          I use HTML and CSS to convert webpages designs info beautiful and
+          effeciant websites.
+        </p>
+      </main>
+    </section>
+    <section class="p-land-page">
+      <nav id="js">
         <ul class="nav-links">
           <li><a class="nav-link" href="#">The book series</a></li>
           <li><a class="nav-link" href="#">Testimonials</a></li>
@@ -22,7 +45,7 @@
         </ul>
       </nav>
       <!-- main area -->
-      <main>
+      <main class="landing-main">
         <h2>You don't know JavaScript</h2>
         <section>
           <div class="img-container"></div>
@@ -44,6 +67,24 @@
         <p>The first ebook in book series is absolutley free.</p>
         <button class="footer-btn">Find out more about this offer</button>
       </footer>
-    </div>
+    </section>
+    <section class="log-in-page">
+      <div class="form-wrapper">
+        <h1 id="login">login</h1>
+        <input
+          class="input-field"
+          type="email"
+          placeholder="Email..."
+          required
+        />
+        <input
+          class="input-field"
+          type="password"
+          placeholder="Password..."
+          required
+        />
+        <input class="btn" type="submit" value="Login" />
+      </div>
+    </section>
   </body>
 </html>
